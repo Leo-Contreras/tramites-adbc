@@ -1,0 +1,29 @@
+base de datos :
+
+
+Tramites (
+	
+	id
+	Nombre   ,
+	url ,
+	Categoria 
+)
+
+
+Categorias (para tramites)  
+(
+
+	id ,
+	Nombre 
+	Descripcion 
+	Imagen
+
+)
+
+
+Preguntas_frecuentes
+(
+	Pregunta: ,
+	respuesta 
+
+)
