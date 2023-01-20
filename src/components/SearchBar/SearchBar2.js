@@ -11,10 +11,12 @@ const SearchBar2 = () => {
     stringify: option => option,
   });
 
-  // Sample options for search box
-  const myOptions = ['One Number', 'Two Number', 'Five Number',
-    'This is a sample text', 'Dummy text', 'Dropdown option teet',
-    'Hello text', 'Welcome to text field'];
+  // LISTA DE TRAMITES , SE NECESITA UN ARREGLO DE LOS NOMBRES DE LOS TRAMITES
+
+
+  const myOptions = ['Tramite 1', 'Tramite 2', 'Tramite 3',
+    'Tramite 3', 'Tramite 4', 'Tramite 5',
+    'CURP', 'ACTA NACIMIENTO'];
 
   return (
     <div style={{ marginLeft: '40%', marginTop: '60px' }}>
