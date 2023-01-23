@@ -1,5 +1,4 @@
 import React from 'react';
-import SearchBar2 from './components/SearchBar/SearchBar2';
 import { Routes, Route } from 'react-router-dom';
 import PagContacto from './paginas/PagContacto.js';
 import PagTramites from './paginas/PagTramites.js';
@@ -21,7 +20,7 @@ function App() {
      
 <div>
 <ResponsiveNavbar />
-<SearchBar2 />
+
       <Routes>
         <Route path ="/inicio" element={<PagHome />} />
         <Route path ="/tramites"  element={<PagTramites />} />
@@ -35,9 +34,9 @@ function App() {
       
 
  </div>
-      <footer>
+    <footer className="footer--pin">
       <Footer />
-      </footer>
+    </footer>
       
  </div>
   );
