@@ -6,6 +6,7 @@ import PagHome from './paginas/PagHome.js';
 import PagError from './paginas/PagError.js';
 import ResponsiveNavbar from './components/Navbar/ResponsiveNavbar.js';
 import Footer from './components/Footer/Footer.js';
+import Footer2 from './components/Footer/Footer2.js';
 
 
 
@@ -31,13 +32,11 @@ function App() {
       
       
    {/*<h1>Agencia Digital de Baja California</h1>*/}
-      
-
+    
  </div>
-    <footer className="footer--pin">
-      <Footer />
-    </footer>
-      
+   
+    <Footer />
+
  </div>
   );
 }

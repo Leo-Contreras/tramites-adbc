@@ -1,0 +1,34 @@
+
+{
+    "tramites" : [
+        {
+            "id" : 1,
+            "NombreTramite" : "CURP",
+            "Descripcion" : "La Clave Única de Registro de Población es un código único de identidad de 18 caracteres utilizado para identificar oficialmente tanto a residentes como a ciudadanos mexicanos de todo el país.",
+            "urlImg" : "#"
+        },
+        {
+            "id" : 2,
+            "NombreTramite" : "Acta de nacimiento",
+            "Descripcion" : "Te la dan cuando naces",
+            "urlImg" : "#"
+        },
+        {
+            "id" : 3,
+            "NombreTramite" : "Constancia de no antecedentes penales",
+            "Descripcion" : "Documento que valida que se cuenta con problemas legales",
+            "urlImg" : "#"
+        },
+
+        {
+            "id" : 4,
+            "NombreTramite" : "Cita para el SAT",
+            "Descripcion" : "Se agenda cita para un tramite del SAT.",
+            "urlImg" : "#"
+        }
+
+
+
+    ]
+}
+    
