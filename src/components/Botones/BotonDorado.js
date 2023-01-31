@@ -13,6 +13,7 @@ export default function BotonDorado(props) {
           width: 200,
            padding: 1,
             margin: 2,
+            borderRadius: 28 ,
             ':hover': {
               bgcolor: '#a07545', 
               color: '#f8f8f8',

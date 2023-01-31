@@ -13,6 +13,7 @@ export default function BotonBlanco(props) {
           width: 200,
            padding: 1,
             margin: 2,
+             borderRadius: 28 ,
             ':hover': {
               bgcolor: '#6a1c32', 
               color: '#f8f8f8',

@@ -13,6 +13,7 @@ export default function BotonGuinda(props) {
           width: 200,
            padding: 1,
             margin: 2,
+            borderRadius: 28 ,
             ':hover': {
               bgcolor: '#53152b', 
               color: '#f8f8f8',
