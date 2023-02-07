@@ -25,11 +25,9 @@ const ResponsiveNavbar = () => {
       setAnchorElNav(null);
     };
   
-  
-
 
     return (
-        <AppBar position="static" sx={{ bgcolor: "#6a1c32"}}>
+        <AppBar enableStickyHeader position="static" sx={{ bgcolor: "#6a1c32"}}>
           <Container maxWidth="xl">
             <Toolbar disableGutters>
              

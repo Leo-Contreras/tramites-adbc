@@ -5,7 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
-export default function ActionAreaCard() {
+export default function ActionAreaCard(props) {
   return (
     <Card sx={{ maxWidth: 300 , minWidth: 300}}>
       <CardActionArea>
@@ -13,11 +13,11 @@ export default function ActionAreaCard() {
           component="img"
           height="140"
           image="https://cdn-icons-png.flaticon.com/512/5064/5064889.png"
-          alt="green iguana"
+          alt="tramite"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Tramite 
+            {props.nombreTramite}
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Descripcion del tramite

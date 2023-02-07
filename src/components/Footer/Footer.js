@@ -52,15 +52,15 @@ export default function Footer(props) {
   let brand;
 
   if (content.brand.image) {
-    brand = <img src={ content.brand.image } alt="" width={ content.brand.width } />;
+    brand = <img src={ content.brand.image } alt="brand" width={ content.brand.width } />;
   } else {
     brand = content.brand.text || '';
   }
 
   return (
-    <footer>
+    
       <Container sx={{backgroundColor: '#6a1c32'}} maxWidth="lg">
-        <Box  py={6} display="flex" flexWrap="wrap" alignItems="center" className={classes.rootBox}>
+        <Box sx={{backgroundColor: '#6a1c32'}} py={6} display="flex" flexWrap="wrap" alignItems="center" className={classes.rootBox}>
           <Link href="#" color="inherit" underline="none">
             {brand}
           </Link>
@@ -73,6 +73,5 @@ export default function Footer(props) {
           <Typography color="textSecondary" component="p" variant="caption" gutterBottom={false}>{content['copy']}</Typography>
         </Box>
       </Container>
-    </footer>
   );
 }

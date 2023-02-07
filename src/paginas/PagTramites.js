@@ -18,21 +18,35 @@ const PagTramites = () => {
       }}
     >
 
-      <BotonBlanco text= "Tramites"/>    
-      <BotonGuinda text= "Categorais"/>
-      <BotonDorado text= "Documentos" />
 
-        <Grid container>
-         <Grid item>
+<Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} justifyContent="center"
+  alignItems="center" >
+         <Grid item xs={6} >
            <h1>Pagina de tramites y servcios.</h1>
          </Grid>
            
-           <Grid item>
+           <Grid item xs={12}>
              <SearchBar2 />
            </Grid>
           
-           <Grid item>
+           <Grid item xs = {12}>
              <Cards />
+           </Grid>
+            
+           <Grid item xs ={4}>
+            <BotonBlanco text= "Tramites"/>    
+            
+           </Grid>
+
+            
+           <Grid item xs ={4}>
+            <BotonGuinda text= "Categorias"/>
+    
+           </Grid>
+
+            
+           <Grid item xs ={4}>
+            <BotonDorado text= "Documentos" />
            </Grid>
           
         
