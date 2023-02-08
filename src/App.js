@@ -7,6 +7,7 @@ import PagError from './paginas/PagError.js';
 import ResponsiveNavbar from './components/Navbar/ResponsiveNavbar.js';
 import Footer from './components/Footer/Footer.js';
 import Footer2 from './components/Footer/Footer2.js';
+import FooterGob from './components/Footer/FooterGob.js';
 
 
 
@@ -36,7 +37,7 @@ function App() {
     
  </div>
    
-    <Footer />
+    <FooterGob />
 
  </div>
   );

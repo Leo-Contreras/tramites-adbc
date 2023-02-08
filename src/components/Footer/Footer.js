@@ -59,12 +59,12 @@ export default function Footer(props) {
 
   return (
     
-      <Container sx={{backgroundColor: '#6a1c32'}} maxWidth="lg">
-        <Box sx={{backgroundColor: '#6a1c32'}} py={6} display="flex" flexWrap="wrap" alignItems="center" className={classes.rootBox}>
+      <Container  maxWidth="lg">
+        <Box sx={{backgroundColor: '#6a1c32'}} py={6} display="flex" flexWrap="wrap" alignItems="center">
           <Link href="#" color="inherit" underline="none">
             {brand}
           </Link>
-          <Box  component="nav" className={classes.footerNav}>
+          <Box  component="nav" className={classes.footerNav} sx={{backgroundColor: '#6a1c32'}}>
             <Link href="http://localhost:3000/tramites" variant="body1" color="textPrimary" className={classes.footerLink}>{content['link1']}</Link>
             <Link href="http://localhost:3000/contacto" variant="body1" color="textPrimary" className={classes.footerLink}>{content['link2']}</Link>
             <Link href="http://localhost:3000/inicio" variant="body1" color="textPrimary" className={classes.footerLink}>{content['link3']}</Link>
