@@ -19,12 +19,6 @@ return (
 	<Container>
 		<Row>
 		<Column>
-			<Heading>About Us</Heading>
-			<FooterLink href="#">Aim</FooterLink>
-			<FooterLink href="#">Vision</FooterLink>
-			<FooterLink href="#">Testimonials</FooterLink>
-		</Column>
-		<Column>
 			<Heading>Baja California</Heading>
 			<FooterLink href="#">Mexicali</FooterLink>
 			<FooterLink href="#">Tijuana</FooterLink>
@@ -32,13 +26,7 @@ return (
 			<FooterLink href="#">Tècate</FooterLink>
             <FooterLink href="#">Rosarito</FooterLink>
 		</Column>
-		<Column>
-			<Heading>Contact Us</Heading>
-			<FooterLink href="#">Uttar Pradesh</FooterLink>
-			<FooterLink href="#">Ahemdabad</FooterLink>
-			<FooterLink href="#">Indore</FooterLink>
-			<FooterLink href="#">Mumbai</FooterLink>
-		</Column>
+	
 		<Column>
 			<Heading>Social Media</Heading>
 			<FooterLink href="#">

@@ -60,7 +60,7 @@ export default function Footer(props) {
   return (
     
       <Container  maxWidth="lg">
-        <Box sx={{backgroundColor: '#6a1c32'}} py={6} display="flex" flexWrap="wrap" alignItems="center">
+        <Box sx={{backgroundColor: '#6a1c32'}} py={6} display="flex" flexWrap="wrap" alignItems="center" className={classes.rootBox}>
           <Link href="#" color="inherit" underline="none">
             {brand}
           </Link>
